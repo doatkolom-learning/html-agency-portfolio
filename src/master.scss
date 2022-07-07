@@ -1,0 +1,7 @@
+@import './base/reset';
+a {
+    color: red;
+    &:hover {
+        background-color: blue;
+    }
+}
