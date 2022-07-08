@@ -6,6 +6,15 @@
 .row{
     display:flex;
 }
-.col-50{
-    flex-basis: 50%;
+
+.col {
+    flex-grow: 1;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.h-auto {
+    height: auto;
 }

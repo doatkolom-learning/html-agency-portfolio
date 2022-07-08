@@ -3,3 +3,6 @@ https://gist.github.com/rveitch/84cea9650092119527bc
 
 #website
 https://wpmet.com/plugin/elementskit/agency-portfolio-2/
+
+#Image compressor
+https://squoosh.app/

@@ -1,7 +1,40 @@
+@import url(https://fonts.googleapis.com/css2?family=Heebo:wght@500;800&family=Roboto&display=swap);
 * {
   margin: 0;
   padding: 0;
   outline: 0;
+}
+
+.font-primary, h6, h5, h4, h3, h2, h1 {
+  font-family: "Heebo", sans-serif;
+}
+
+.font-secondary, body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #16213e;
+}
+
+h2 {
+  color: #16213e;
+}
+
+h3 {
+  color: #16213e;
+}
+
+h4 {
+  color: #16213e;
+}
+
+h5 {
+  color: #16213e;
+}
+
+h6 {
+  color: #16213e;
 }
 
 .container {
@@ -13,18 +46,14 @@
   display: flex;
 }
 
-.col-50 {
-  flex-basis: 50%;
+.col {
+  flex-grow: 1;
 }
 
-#header {
-  padding: 200px 100px 0;
-  background-color: #F8F9FB;
+.w-full {
+  width: 100%;
 }
-#header .headding-text h3 {
-  color: #16213e;
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 10px;
+
+.h-auto {
+  height: auto;
 }
