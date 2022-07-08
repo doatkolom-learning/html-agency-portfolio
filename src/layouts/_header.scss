@@ -1,0 +1,16 @@
+#header{
+   padding: 200px 100px 0;
+   background-color: $bacground-clr;
+
+   .headding-text{
+       h3{
+         color:$primary-bg;
+         font-family: $primary-font;
+         font-weight: 500;
+         font-size: 20px;
+         line-height: 10px;
+         
+
+       }
+   }
+}

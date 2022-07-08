@@ -4,9 +4,27 @@
   outline: 0;
 }
 
-a {
-  color: red;
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
 }
-a:hover {
-  background-color: blue;
+
+.row {
+  display: flex;
+}
+
+.col-50 {
+  flex-basis: 50%;
+}
+
+#header {
+  padding: 200px 100px 0;
+  background-color: #F8F9FB;
+}
+#header .headding-text h3 {
+  color: #16213e;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 10px;
 }
