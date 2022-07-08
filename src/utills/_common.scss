@@ -1,0 +1,11 @@
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.row{
+    display:flex;
+}
+.col-50{
+    flex-basis: 50%;
+}
