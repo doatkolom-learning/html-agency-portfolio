@@ -22,3 +22,41 @@ a, a:hover{
 .h-auto {
     height: auto;
 }
+
+.items-center {
+    align-items: center;
+}
+
+.text-base {
+    font-size: 16px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        padding: 0 10px;
+    }
+}

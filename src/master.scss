@@ -1,6 +1,16 @@
 @import './utills/varriable';
-@import './base/reset';
-@import './utills/common';
+//improt fontawesome
+@import "./fontawesome/fontawesome.scss", "./fontawesome/solid.scss", "./fontawesome/brands.scss";
+
+//utilities files
+@import './utills/extends';
 @import './utills/mixin';
+@import './utills/common';
+
+@import './base/reset';
 @import './components/button';
 @import './layouts/banner';
+
+
+// responsive file
+@import './responsive';

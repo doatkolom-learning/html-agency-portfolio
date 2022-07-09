@@ -1,19 +1,10 @@
 .btn{
-    @extend .font-primary;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 12px 28px;
-    border: 2px solid $btn-clr;
-    background-color: $bacground-bg;
-    text-align: center;
-   
-   
-}
+    @extend %transition-base;
+    padding: 14px 30px;
+    border: 2px solid $blue-600;
 
-.btn:hover{
-    background-color: $btn-clr;
-}
-
-.btn a:hover{
-    color: $bacground-clr;
+    &:hover {
+        background-color: $blue-600;
+        color: $white;
+    }
 }

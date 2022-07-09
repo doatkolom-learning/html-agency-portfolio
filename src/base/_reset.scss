@@ -15,6 +15,7 @@
 
 body {
     @extend .font-secondary;
+    color: $primary-clr;
 }
 
 @for $i from 1 through 6 {

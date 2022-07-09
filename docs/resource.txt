@@ -6,3 +6,6 @@ https://wpmet.com/plugin/elementskit/agency-portfolio-2/
 
 #Image compressor
 https://squoosh.app/
+
+#Fontawesome
+https://fontawesome.com/icons
