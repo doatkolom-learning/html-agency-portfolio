@@ -5,7 +5,7 @@
   outline: 0;
 }
 
-.font-primary, h6, h5, h4, h3, h2, h1 {
+.font-primary, .btn, h6, h5, h4, h3, h2, h1 {
   font-family: "Heebo", sans-serif;
 }
 
@@ -50,10 +50,47 @@ h6 {
   flex-grow: 1;
 }
 
+a, a:hover {
+  text-decoration: none;
+}
+
 .w-full {
   width: 100%;
 }
 
 .h-auto {
   height: auto;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 28px;
+  border: 2px solid #4054B2;
+  background-color: #F5F6F9;
+  text-align: center;
+}
+
+.btn:hover {
+  background-color: #4054B2;
+}
+
+.btn a:hover {
+  color: #F8F9FB;
+}
+
+#banner-section {
+  padding: 200px 0;
+  background-color: #F8F9FB;
+}
+#banner-section h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.45em;
+}
+#banner-section h1 {
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 1.05em;
+  margin: 30px 0;
 }
