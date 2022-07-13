@@ -12,6 +12,7 @@
 
 @media screen and ( max-width: 576px ) {
     #banner-section {
+        padding: 20px 0;
         h1 {
             font-size: 34px;
             line-height: 40px;
@@ -19,6 +20,25 @@
 
         .banner-col-left {
             margin-bottom: 40px;
+        }
+    }
+
+    #elementor-section{
+         margin: 0 20px;
+        .headding-tittle {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        .headding-description{
+            margin-left: 5px;
+            margin-top: 20px;
+        }
+        .headding-sub-tittle{
+            margin-left: 5px;
+        }
+
+        .list{
+            margin-left: 5px;
         }
     }
 }

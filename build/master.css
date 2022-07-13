@@ -10312,6 +10312,10 @@ a, a:hover {
   cursor: pointer;
 }
 
+.margin-left {
+  margin-left: 80px;
+}
+
 @media screen and (max-width: 576px) {
   .row {
     flex-wrap: wrap;
@@ -10326,11 +10330,11 @@ a, a:hover {
   outline: 0;
 }
 
-.font-primary, h6, h5, h4, h3, h2, h1 {
+.font-primary, #elementor-section .headding-tittle, h6, h5, h4, h3, h2, h1 {
   font-family: "Heebo", sans-serif;
 }
 
-.font-secondary, body {
+.font-secondary, #elementor-section .headding-description, body {
   font-family: "Roboto", sans-serif;
 }
 
@@ -10400,6 +10404,38 @@ h6 {
   margin-left: 4px;
 }
 
+#elementor-section {
+  padding: 100px 0;
+  background-color: #fff;
+}
+#elementor-section .headding-tittle {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+}
+#elementor-section .headding-description {
+  font-size: 19px;
+  color: #6a6d74;
+  line-height: 30px;
+}
+#elementor-section .headding-sub-tittle {
+  margin-top: 30px;
+}
+#elementor-section .list {
+  margin-top: 30px;
+}
+#elementor-section .list .list-items {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+#elementor-section .list .list-items i {
+  font-size: 8px;
+  color: #6a6d74;
+}
+#elementor-section .list .list-items span {
+  padding-left: 12px;
+}
+
 /*
 
     Responsive breakpoints
@@ -10412,11 +10448,31 @@ h6 {
   xxl: 1400px
 */
 @media screen and (max-width: 576px) {
+  #banner-section {
+    padding: 20px 0;
+  }
   #banner-section h1 {
     font-size: 34px;
     line-height: 40px;
   }
   #banner-section .banner-col-left {
     margin-bottom: 40px;
+  }
+  #elementor-section {
+    margin: 0 20px;
+  }
+  #elementor-section .headding-tittle {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  #elementor-section .headding-description {
+    margin-left: 5px;
+    margin-top: 20px;
+  }
+  #elementor-section .headding-sub-tittle {
+    margin-left: 5px;
+  }
+  #elementor-section .list {
+    margin-left: 5px;
   }
 }
