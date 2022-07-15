@@ -1,0 +1,19 @@
+.btn {
+    @extend .text-primary, .text-base, .weight-medium, .no-underline, .inline-block, .font-primary, .cursor-pointer;
+    padding: 12px 30px;
+    border: 2px solid $primary-color;
+    @include transition(300ms);
+
+    &:hover {
+        @extend .text-white;
+        background-color: $primary-color;
+    }
+}
+
+.btn-play {
+    @extend .text-base, .text-dark, .font-primary, .weight-medium, .inline-block, .cursor-pointer;
+    @include transition(300ms);
+    &:hover {
+        @extend .text-primary;
+    }
+}

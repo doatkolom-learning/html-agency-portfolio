@@ -5,87 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Agency Portfolio</title>
+    
     <link rel="stylesheet" href="./build/master.css">
 </head>
-<body>
-    <!-- banner section start -->
-    <section id="banner-section">
+<body class="text-dark">
+    <header></header>
+    
+    <section id="banner-section" class="banner-section relative">
+        <img width="71" height="74" class="absolute particle-1" src="./images/portfolio_agency_memphis_1.png" alt="banner particles">
         <div class="container">
             <div class="row items-center">
-                <div class="col banner-col-left">
-                    <h4>We are proud of the works we've done.</h4>
-                    <h1>We're Design Creators.</h1>
-
-                    <div class="row button-wrapper">
-                        <a href="#" class="btn font-priamry text-base inline-block">More Projects</a>
-                        <button class="banner-play-btn inline-block text-base font-priamry cursor-pointer">
+                <div class="col">
+                    <h3 class="font-primary text-dark text-md subtitle weight-medium">We are proud of the works we've done.</h3>
+                    <h1 class="font-primary text-dark text-8xl title weight-bold">We're Design Creators.</h1>
+                    <div class="row items-center button-container">
+                        <a href="#" class="btn">More Projects</a>
+                        <button class="btn-play btn-reset">
                             <i class="fa-solid fa-play"></i>
                             <span class="underline inline-block">Watch Video</span>
                         </button>
                     </div>
-
                 </div>
                 <div class="col">
                     <picture>
-                        <img class="w-full h-auto" width="680" height="538" src="./images/banner_image.webp" alt="banner image">
+                        <img class="w-full h-auto" width="680" height="533" src="./images/banner_image.webp" alt="hero image">
                     </picture>
                 </div>
             </div>
         </div>
     </section>
-    <!-- banner section end -->
-    <!--elementor section start-->
-    <section id="elementor-section">
+
+    <section id="about-section" class="about-section">
         <div class="container">
-            <div class="row">
+            <div class="row items-center">
                 <div class="col">
-                    <picture>
-                        <img width="410" height="600" src="./images/about_us_image.png" alt="about image" srcset="">
-                    </picture>
+                    <div class="relative">
+                        <img class="about-bg-image relative" src="./images/about_us_image_bg.webp" alt="about-background-iamge">
+                        <picture class="absolute about-image">
+                            <img width="410" height="600" src="./images/about_us_image.webp" alt="about us image">
+                        </picture>
+                    </div>
                 </div>
-                <div class="col ">
-                    <div class="headding-tittle items-center margin-left">
-                        <h3>User Experiencec Design &User Testing</h3>
-                    </div>
-                    <div class="headding-description margin-left">
-                        <p>
-                            Golly gosh argy-bargy gosh dropped a clanger Why blag chinwag cheeky brilliant, cracking goal barney baking cakes amongst Richard nice one Oxford I, chancer plastered.
-                        </p>
-                    </div>
-                    <div class="headding-sub-tittle margin-left">
-                        <h4>outputs:</h4>
-                    </div>
-                    <div class="list margin-left">
-                        <ul class="list-items">
-                            <li class="list-items">
-                              <i class="fas fa-circle"></i>
-                            <span>Competitive analysis</span>
+                <div class="col">
+                    <div class="content">
+                        <div class="section-heading">
+                            <h2 class="title">User Experience Design &amp; User Testing</h2>
+                            <p class="description">Golly gosh argy-bargy gosh dropped a clanger Why blag chinwag cheeky brilliant, cracking goal barney baking cakes amongst Richard nice one Oxford I, chancer plastered.</p>
+                        </div>
+                        
+
+                        <h4 class="sub-title">Outputs:</h4>
+                        <ul class="list-none text-secondary text-base weight-regular font-seco">
+                            <li class="row items-center">
+                                <i class="fa-solid fa-circle text-xs"></i>
+                                <span>Competitive analysis</span>
                             </li>
-                            <li class="list-items">
-                                <i class="fas fa-circle"></i>
+                            <li class="row items-center">
+                                <i class="fa-solid fa-circle text-xs"></i>
                                 <span>User personas</span>
                             </li>
-                            <li class="list-items">
-                                <i class="fas fa-circle"></i>
+                            <li class="row items-center">
+                                <i class="fa-solid fa-circle text-xs"></i>
                                 <span>Documentation of user tasks</span>
                             </li>
-                            <li class="list-items">
-                                <i class="fas fa-circle"></i>
+                            <li class="row items-center">
+                                <i class="fa-solid fa-circle text-xs"></i>
                                 <span>Clickable wireframe prototype of the core flow</span>
                             </li>
-                            <li class="list-items">
-                                <i class="fas fa-circle"></i>
+                            <li class="row items-center">
+                                <i class="fa-solid fa-circle text-xs"></i>
                                 <span>Outline of User Stories</span>
                             </li>
                         </ul>
-                        <a href="#" class="btn font-priamry text-base inline-block">More Projects</a>
+                        <a href="#" class="btn">More Projects</a>
                     </div>
-                    
                 </div>
             </div>
         </div>
     </section>
-     <!--elementor section end-->
+    <section id="creative-section" class="creative-section">
+        <div class="container">
+            <div class="section-heading text-center">
+                <h2 class="title">Creative studio</h2>
+                <p class="description">Tomfoolery burke bonnet cheers cobblers Why lost the plot cheeky bugger, victoria sponge is mush a load of old tosh.</p>
+            </div>
 
+            <div class="row gap-2xl">
+                <div class="col">
+                    <div class="card">
+                        <h3 class="title">Creative Always</h3>
+                        <p class="description">He nicked it butty dropped clanger the little rotter barmy cockup bits and bobs lady bloke</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h3 class="title">Creative Always</h3>
+                        <p class="description">He nicked it butty dropped clanger the little rotter barmy cockup bits and bobs lady bloke</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <h3 class="title">Creative Always</h3>
+                        <p class="description">He nicked it butty dropped clanger the little rotter barmy cockup bits and bobs lady bloke</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <section id="portfolio-section" class="portfolio-section"></section>
+    <section id="team-section" class="team-section"></section>
+    <section id="testimonial-section" class="testimonial-section"></section>
+    <section id="cta-section" class="cta-section"></section>
+    <footer></footer>
 </body>
 </html>

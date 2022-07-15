@@ -1,18 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&family=Roboto:wght@400;500;700&display=swap');
+
 @import './utills/varriable';
-//improt fontawesome
+@import './utills/mixins';
+
 @import "./fontawesome/fontawesome.scss", "./fontawesome/solid.scss", "./fontawesome/brands.scss";
 
-//utilities files
-@import './utills/extends';
-@import './utills/mixin';
+@import './base/reset';
 @import './utills/common';
 
-@import './base/reset';
-@import './components/button';
+@import './components/buttons';
+@import './components/heading';
+@import'./components/card';
+
 @import './layouts/banner';
-@import './layouts/elementor';
-
-
-
-// responsive file
-@import './responsive';
+@import './layouts/about';
+@import './layouts/creative';

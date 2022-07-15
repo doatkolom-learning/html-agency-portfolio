@@ -1,26 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@500;800&family=Roboto&display=swap');
 * {
     margin: 0;
     padding: 0;
     outline: 0;
-}
-
-.font-primary {
-    font-family: 'Heebo', sans-serif;
-}
-
-.font-secondary {
-    font-family: 'Roboto', sans-serif;
-}
-
-body {
-    @extend .font-secondary;
-    color: $primary-clr;
-}
-
-@for $i from 1 through 6 {
-    h#{$i} {
-        @extend .font-primary;
-        color: $primary-clr;
-    }
 }

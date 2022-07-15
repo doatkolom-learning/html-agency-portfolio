@@ -1,0 +1,14 @@
+.section-heading {
+    .title {
+        @extend .font-primary, .text-5xl, .text-dark, .weight-bold;
+    }
+
+    .description {
+        @extend .text-base, .font-secondary,  .text-secondary, .weight-regular;
+    }
+
+    &.text-center {
+        max-width: 520px;
+        margin: 0 auto;
+    }
+}

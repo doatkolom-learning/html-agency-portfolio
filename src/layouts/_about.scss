@@ -1,0 +1,37 @@
+.about-section {
+
+    padding: 100px 0;
+
+    .about-image {
+        left: 50px;
+        top: 60px;
+    }
+
+    .about-bg-image {
+        left: -10px;
+    }
+
+    .content {
+        padding-left: 50px
+    }
+
+    .title {
+        margin-bottom: 20px;
+    }
+
+    .sub-title {
+        margin: 40px 0 5px 0;
+    }
+
+    li {
+        margin-top: 20px;
+        span {
+            margin-left: 20px;
+            display: inline-block;
+        }
+    }
+
+    .btn {
+        margin-top: 45px;
+    }
+}

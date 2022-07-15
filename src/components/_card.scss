@@ -1,0 +1,20 @@
+.card {
+    padding: 80px 50px 50px 50px;
+    background-color: $white-color;
+    border-top: 1px solid $white-color;
+    @include transition;
+
+    &:hover {
+        border-top-color: $primary-color;
+        box-shadow: 0 12px 15px 11px #00000014;
+    }
+
+    .title {
+        @extend .font-primary, .text-md, .text-dark, .weight-medium;
+        margin-bottom: 25px;
+    }
+
+    .description {
+        @extend .font-secondary, .text-base, .text-secondary;
+    }
+}
