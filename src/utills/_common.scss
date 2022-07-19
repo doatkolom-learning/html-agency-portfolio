@@ -134,3 +134,36 @@
 .gap-2xl {
     gap: 20px;
 }
+
+//.max-w-1/2
+.max-w-1\/2 {
+    max-width: 50%;
+}
+
+.align-start {
+    align-self: start;
+}
+
+.bg-primary {
+    background-color: $primary-color;
+}
+
+.bg-primary-deep {
+    background-color: $primary-deep-color;
+}
+
+.bg-green {
+    background-color: $green-color;
+}
+
+.bg-pink {
+    background-color: $pink-color;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-col {
+    flex-direction: column;
+}
